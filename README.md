@@ -1,6 +1,4 @@
-## My Project
-
-Monitor Amazon EKS control plane metrics using AWS Distro for Open Telemetry (ADOT) and Amazon Grafana
+## Monitor Amazon EKS control plane metrics using AWS Distro for Open Telemetry (ADOT) and Amazon Grafana
 
 
 bservability is essential for running production Kubernetes clusters. Monitoring Control plane metrics is equally important as monitoring your applications. Monitoring API server metrics can give you insights into control plane’s performance and help identify issues pro-actively. For example, API server metrics can help identify poorly written controllers that can overload API servers, affecting your applications’ availability. Similarly, collecting  etcd metrics can help monitor the etcd size and ensure the database limit is not exceeded that can result in cluster entering a read-only state.
