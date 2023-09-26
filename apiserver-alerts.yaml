@@ -1,0 +1,10 @@
+groups:
+  - name: apiserver-alerts
+    rules:
+      - alert: "API Server request drop" 
+        expr: rate(apiserver_flowcontrol_rejected_requests_total[5m]) > 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: API server is receiving too many request

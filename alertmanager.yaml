@@ -1,0 +1,12 @@
+alertmanager_config: |
+  route:
+    receiver: 'default'
+  receivers:
+    - name: 'default'
+      sns_configs:
+      - topic_arn: arn:aws:sns:us-east-1:$ACCOUNT_ID:$SNS_TOPIC
+        sigv4:
+          region: us-east-1
+        attributes:
+          key: severity
+          value: SEV2
