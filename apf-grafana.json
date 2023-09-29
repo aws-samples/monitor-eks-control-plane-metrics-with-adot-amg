@@ -31,7 +31,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -108,7 +108,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_concurrency_in_use",
@@ -123,7 +123,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -201,7 +201,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_current_inqueue_requests",
@@ -216,7 +216,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -293,7 +293,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_concurrency_limit",
@@ -308,7 +308,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -385,7 +385,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_dispatched_requests_total",
@@ -400,7 +400,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -450,7 +450,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_execution_seconds_count",
@@ -465,7 +465,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -542,7 +542,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_execution_seconds_bucket",
@@ -557,7 +557,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -606,7 +606,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_wait_duration_seconds_count",
@@ -621,7 +621,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "Gg5jBzZSz"
+        "uid": "${Datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -698,7 +698,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "Gg5jBzZSz"
+            "uid": "${Datasource}"
           },
           "editorMode": "builder",
           "expr": "apiserver_flowcontrol_request_wait_duration_seconds_bucket",
@@ -726,7 +726,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "APF",
-  "uid": "2xlL9zWIz",
+  "uid": "${Datasource}",
   "version": 7,
   "weekStart": ""
 }
